@@ -1,0 +1,98 @@
+body{
+    background-color:#3A4750;
+    color: #eeeeee;
+ 
+}
+
+.parent{
+    background-color: #303841;
+    width: 910px;
+    height: 500px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    border-radius: 10px 10px 0 0;
+    transition-duration: 1s;
+}
+
+.parent:hover{
+    box-shadow:6px 0px 0px 0px #d72323;
+}
+
+.akame{
+    background-image: url(akame.png);
+    width: 620px;
+    height: 500px;
+    background-repeat: no-repeat;
+    opacity: 0.3;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 250px;
+    filter: grayscale(100%);
+    transition: 0.5s;
+    }
+
+.akame:hover{
+    filter: grayscale(0);
+    opacity: 0.7;
+}
+
+.welcome{
+color: #eeeeee;
+width: 250px;
+margin: auto;
+transition-duration: 1s;
+cursor:default;
+
+}
+
+.welcome:hover{
+    opacity: 1;
+    width: 300px;
+    margin: auto;
+}
+
+.login-space{
+    text-align: center;
+    width: 620px;
+    height: 500px;
+    padding-top: 30px;
+}
+
+.login-space form input{
+    padding: 5px;
+    background-color:#3A4750 ;
+    border-radius:15px 0 10px 0;
+    display: block;
+    margin-left: 150px;
+    margin-bottom: 25px;
+    border: #3A4750 solid 1px;
+    border-bottom: #D72323 solid 1px;
+    padding:10px;
+    transition-duration:0.2s ;
+    color: white;
+    cursor: pointer;
+    caret-color:#D72323 ;
+}
+
+.sign-up{
+    transition-duration: 2s;
+}
+
+.sign-up:hover{
+    background-color: #D72323;
+    
+}
+
+p{
+    font-size: 20px;
+    padding: 10px 0 1px 0;
+    font-style: italic;
+    font-weight: bold;
+}
+a{
+    color: #fff;
+    font-size: medium;
+    font-weight: bold;
+}
